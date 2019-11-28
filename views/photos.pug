@@ -1,0 +1,16 @@
+extends gallery
+
+block page-content
+    div.pagecontent
+        h3= pagename
+        p I shoot with my late Grandma Betty Anne’s film camera, an Olympus OM-2. Since the 70s, the Olympus has traveled all over the US with my Grandparents, and to Egypt and Morocco with my mom. The camera has my mom’s surname, Shoaff, etched onto the bottom. I feel very connected to my family whenever I take photos with the Olympus.
+        p My favorite kind of photograph to take is a candid portrait. I think a simple portrait can tell so much about a person and a moment.
+        
+        h3 galleries
+        p Click an image below to check out curated galleries of some of my favorite shots.
+        div.photogallery
+            each photo in photos
+                div(class='photile')
+                    a(href=photo.link alt=photo.title)
+                        img(src=photo.thumblink)
+                        p= photo.title
