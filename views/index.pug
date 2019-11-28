@@ -1,8 +1,9 @@
 head
     title= title
     include includes/siteheader.pug
-    body
-        div.contentflexed
-            div.site-name-nav
-                h1= sitename
-                include includes/navbar.pug
+body(style={backgroundImage: "#{index_img}"})
+    div.site-name-nav
+        h1= pagename
+        include includes/index_navbar.pug
+    div.sitefoot
+        include includes/sitefooter.pug

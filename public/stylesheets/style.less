@@ -23,6 +23,21 @@ ul {
     list-style-type: none;
 }
 
+// index page-specific styles
+.site-name-nav h1 {
+    font-size: 50px;
+}
+
+.index_nav a {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.index_nav a:hover {
+    color: @slategreen;
+    background-color: @slategreenhov;
+}
+
 // toggle subnavigation bar on HOVER
 .subnav {
     display: none;
@@ -58,8 +73,10 @@ li#subnavParent:hover .subnav{
 }
 
 .site-name-nav {
-    @flexdefs();
+    margin: 50pt;
+    text-align: center;
     min-width: 200pt;
+    min-height: 200pt;
 }
 
 .pagecontent {

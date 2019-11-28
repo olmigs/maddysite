@@ -5,7 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', {
       title: 'Madeleine Fellows | Welcome',
-      sitename: 'madeleinefellows.com',
+      pagename: 'madeleine fellows',
+      index_img: "http://photos.madeleinefellows.com/galleries/home/sellwood.jpg"
   });
 });
 
