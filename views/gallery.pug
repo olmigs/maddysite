@@ -1,0 +1,29 @@
+html
+    block site-head
+        head
+            title= title
+            include includes/siteheader.pug
+            link(href="/featherlight/featherlight.min.css" type="text/css" rel="stylesheet" )
+            link(href="/featherlight/featherlight.gallery.min.css" type="text/css" rel="stylesheet" )
+    block site-body
+        body
+            div.contentflexed
+                div.site-name-nav
+                    h1= sitename
+                    include includes/navbar.pug
+                block page-content
+                    div.pagecontent
+                        h3= "gallery: " + pagename
+                        p Click an image below for an expanded view.
+                        div.photogallery(data-featherlight-gallery data-featherlight-filter="a")
+                            each photo in photos
+                                div(class='photile')
+                                    a(class="gallery" href=photo.link alt=photo.title)
+                                        img(src=photo.thumblink)
+            div.sitefoot
+                include includes/sitefooter.pug
+            block featherlight-scripts
+                script(src="/jquery/jquery.js" type="text/javascript")
+                script(src="/featherlight/featherlight.min.js" type="text/javascript" charset="utf-8")
+                script(src="/featherlight/featherlight.gallery.min.js" type="text/javascript" charset="utf-8")
+                script(src="/javascripts/gallerycaption.js" type="text/javascript")

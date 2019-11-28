@@ -1,0 +1,96 @@
+@slateblue: #7C9EC3;    // background
+@slategreen: #002A2A;   // text
+@slategreenhov: lighten(@slategreen, 20%);   // hover color
+
+body {
+    padding: 25px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: @slateblue;
+    color: @slategreen;
+}
+
+a,
+.link {
+    text-decoration: none;
+    color: @slategreen;
+}
+
+a:hover {
+    color: @slategreenhov;
+}
+
+ul {
+    list-style-type: none;
+}
+
+// toggle subnavigation bar on HOVER
+.subnav {
+    display: none;
+}
+
+li#subnavParent:hover .subnav{
+    display: block;
+    word-wrap: normal;
+}
+
+.featherlight-content .legend {
+    position: absolute;
+    top: 0;
+    font-size: larger;
+    color: @slategreen;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+// <-- begin flex elements section -->
+
+//flexbox defaults
+@flexdefs: {
+    margin: 20pt;
+}
+
+.contentflexed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.site-name-nav {
+    @flexdefs();
+    min-width: 200pt;
+}
+
+.pagecontent {
+    margin: 70pt;
+}
+
+.sitefoot {
+    text-align: center;
+    margin-top: 30pt;
+}
+
+.sitefoot ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+}
+
+.sitefoot li {
+    margin: 5pt;
+    font-size: 30px;
+}
+
+.photogallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photile {
+    text-align: center;
+    margin: 15pt;
+}
