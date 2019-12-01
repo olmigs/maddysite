@@ -8,6 +8,8 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var writingRouter = require('./routes/writing');
 var photoRouter = require('./routes/photos');
+var aboutRouter = require('./routes/about');
+var contactRouter = require('./routes/contact');
 var lessMiddleware = require('less-middleware');
 
 var app = express();
@@ -29,6 +31,8 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/writing', writingRouter);
 app.use('/photos', photoRouter);
+app.use('/about', aboutRouter);
+app.use('/contact', contactRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -1,9 +1,9 @@
 head
     title= title
     include includes/siteheader.pug
-body(style={backgroundImage: "#{index_img}"})
-    div.site-name-nav
-        h1= pagename
+body(style={'background-image': "url(" + index_img + ")", 'background-size': 'cover'})
+    div.index-site-name-nav
+        h1= sitename
         include includes/index_navbar.pug
     div.sitefoot
         include includes/sitefooter.pug
