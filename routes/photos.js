@@ -2,7 +2,7 @@
 var express = require('express');
 var photos = require('../public/src/photos.json');
 var fs = require('fs');
-var sh = reqire('javascripts/htmlsaver');
+var sh = require('javascripts/htmlsaver');
 var router = express.Router();
 
 router.use(express.static('./public'));
