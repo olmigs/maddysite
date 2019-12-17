@@ -17,12 +17,8 @@ router.get('/', function(req, res, next) {
       }, 
         function (err, html) {
             if (err) throw err;
-            fs.writeFile('public/html/photos.html', html, (err) => {
-                if (err) throw err;
-                console.log('The file %s has been saved!');
-            });
+            sh.saveAsHtml('public/html/photos.html', html, fs);
             res.send(html);
-            //sh.saveAsHtml(html, fs, '/html/photos.html');
         }
       );
 });
@@ -37,7 +33,8 @@ router.get('/portraits', function(req, res, next) {
       }, 
       function (err, html) {
         if (err) throw err;
-        sh.saveAsHtml(html, fs, '/html/portraits.html');
+        sh.saveAsHtml('public/html/portraits.html', html, fs);
+        res.send(html);
     }
   );
 });
@@ -52,7 +49,8 @@ router.get('/places', function(req, res, next) {
       }, 
         function (err, html) {
             if (err) throw err;
-            sh.saveAsHtml(html, fs, '/html/places.html');
+            sh.saveAsHtml('public/html/places.html', html, fs);
+            res.send(html);
         }
       );
 });
@@ -67,7 +65,8 @@ router.get('/summerculture', function(req, res, next) {
       }, 
         function (err, html) {
             if (err) throw err;
-            sh.saveAsHtml(html, fs, '/html/summerculture.html');
+            sh.saveAsHtml('public/html/summerculture.html', html, fs);
+            res.send(html);
         }
       );
 });
@@ -82,7 +81,8 @@ router.get('/home', function(req, res, next) {
       }, 
         function (err, html) {
             if (err) throw err;
-            sh.saveAsHtml(html, fs, '/html/home.html');
+            sh.saveAsHtml('public/html/home.html', html, fs);
+            res.send(html);
         }
       );
 });
