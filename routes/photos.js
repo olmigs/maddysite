@@ -2,7 +2,7 @@
 var express = require('express');
 var photos = require('../public/src/photos.json');
 var fs = require('fs');
-var sh = require('javascripts/htmlsaver');
+var sh = require('../public/javascripts/htmlsaver');
 var router = express.Router();
 
 router.use(express.static('./public'));
@@ -14,8 +14,17 @@ router.get('/', function(req, res, next) {
           title: 'Madeleine Fellows | Photographer',
           pagename: 'photography',
           photos: photos.gallerylist
-      }), 
-      sh.saveAsHtml(err, html, fs, 'photos.html');
+      }, 
+        function (err, html) {
+            if (err) throw err;
+            fs.writeFile('public/html/photos.html', html, (err) => {
+                if (err) throw err;
+                console.log('The file %s has been saved!');
+            });
+            res.send(html);
+            //sh.saveAsHtml(html, fs, '/html/photos.html');
+        }
+      );
 });
 
 // define the portraits route
@@ -25,8 +34,12 @@ router.get('/portraits', function(req, res, next) {
           title: 'Madeleine Fellows | Photographer',
           pagename: 'portraits',
           photos: photos.portraits
-      }), 
-      sh.saveAsHtml(err, html, fs, 'portraits.html');
+      }, 
+      function (err, html) {
+        if (err) throw err;
+        sh.saveAsHtml(html, fs, '/html/portraits.html');
+    }
+  );
 });
 
 // define the places route
@@ -36,8 +49,12 @@ router.get('/places', function(req, res, next) {
           title: 'Madeleine Fellows | Photographer',
           pagename: 'places',
           photos: photos.places
-      }), 
-      sh.saveAsHtml(err, html, fs, 'places.html');
+      }, 
+        function (err, html) {
+            if (err) throw err;
+            sh.saveAsHtml(html, fs, '/html/places.html');
+        }
+      );
 });
 
 // define the summerculture route
@@ -47,8 +64,12 @@ router.get('/summerculture', function(req, res, next) {
           title: 'Madeleine Fellows | Photographer',
           pagename: 'summer culture',
           photos: photos.summerculture
-      }), 
-      sh.saveAsHtml(err, html, fs, 'summerculture.html');
+      }, 
+        function (err, html) {
+            if (err) throw err;
+            sh.saveAsHtml(html, fs, '/html/summerculture.html');
+        }
+      );
 });
 
 // define the home route
@@ -58,8 +79,12 @@ router.get('/home', function(req, res, next) {
           title: 'Madeleine Fellows | Photographer',
           pagename: 'home',
           photos: photos.home
-      }), 
-      sh.saveAsHtml(err, html, fs, 'home.html');
+      }, 
+        function (err, html) {
+            if (err) throw err;
+            sh.saveAsHtml(html, fs, '/html/home.html');
+        }
+      );
 });
 
 module.exports = router;
