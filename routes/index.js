@@ -3,6 +3,8 @@ var fs = require('fs');
 var sh = require('../public/javascripts/htmlsaver');
 var router = express.Router();
 
+router.use(express.static('./public'));
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
       res.render('index', {
@@ -12,7 +14,7 @@ router.get('/', function(req, res, next) {
       },
           function (err, html) {
               if (err) throw err;
-              sh.saveAsHtml('../public/html/index.html', html, fs);
+              sh.saveAsHtml('public/html/index.html', html, fs);
               res.send(html);
           }
     );
