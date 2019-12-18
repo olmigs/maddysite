@@ -1,7 +1,6 @@
 //------------------
 var express = require('express');
 var photos = require('../public/src/photos.json');
-var fs = require('fs');
 var sh = require('../public/javascripts/htmlsaver');
 var router = express.Router();
 
@@ -17,7 +16,7 @@ router.get('/', function(req, res, next) {
       },
         function (err, html) {
             if (err) throw err;
-            sh.saveAsHtml('public/html/photos.html', html, fs);
+            sh.saveAsHtml('public/html/photos.html', html);
             res.send(html);
         }
       );
@@ -33,7 +32,7 @@ router.get('/portraits', function(req, res, next) {
       },
       function (err, html) {
         if (err) throw err;
-        sh.saveAsHtml('public/html/portraits.html', html, fs);
+        sh.saveAsHtml('public/html/portraits.html', html);
         res.send(html);
     }
   );
@@ -49,7 +48,7 @@ router.get('/places', function(req, res, next) {
       },
         function (err, html) {
             if (err) throw err;
-            sh.saveAsHtml('public/html/places.html', html, fs);
+            sh.saveAsHtml('public/html/places.html', html);
             res.send(html);
         }
       );
@@ -65,7 +64,7 @@ router.get('/summerculture', function(req, res, next) {
       },
         function (err, html) {
             if (err) throw err;
-            sh.saveAsHtml('public/html/summerculture.html', html, fs);
+            sh.saveAsHtml('public/html/summerculture.html', html);
             res.send(html);
         }
       );
@@ -81,7 +80,7 @@ router.get('/home', function(req, res, next) {
       },
         function (err, html) {
             if (err) throw err;
-            sh.saveAsHtml('public/html/home.html', html, fs);
+            sh.saveAsHtml('public/html/home.html', html);
             res.send(html);
         }
       );

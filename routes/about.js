@@ -1,5 +1,4 @@
 var express = require('express');
-var fs = require('fs');
 var sh = require('../public/javascripts/htmlsaver');
 var router = express.Router();
 
@@ -14,7 +13,7 @@ router.get('/', function(req, res, next) {
       },
           function (err, html) {
               if (err) throw err;
-              sh.saveAsHtml('public/html/about.html', html, fs);
+              sh.saveAsHtml('public/html/about.html', html);
               res.send(html);
           }
   );
