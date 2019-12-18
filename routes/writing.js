@@ -10,7 +10,13 @@ router.get('/', function(req, res, next) {
           sitename: 'madeleine fellows',
           title: 'Madeleine Fellows | Writer',
           pagename: 'writing'
-      });
+      },
+          function (err, html) {
+              if (err) throw err;
+              sh.saveAsHtml('public/html/writing.html', html, fs);
+              res.send(html);
+          }
+      );
 });
 
 // define the projects route
@@ -19,7 +25,13 @@ router.get('/projects', function(req, res, next) {
           sitename: 'madeleine fellows',
           title: 'Madeleine Fellows | Writer',
           pagename: 'projects'
-      });
+      },
+          function (err, html) {
+              if (err) throw err;
+              sh.saveAsHtml('public/html/projects.html', html, fs);
+              res.send(html);
+          }
+      );
 });
 
 module.exports = router;

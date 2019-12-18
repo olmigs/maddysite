@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
           title: 'Madeleine Fellows | Photographer',
           pagename: 'photography',
           photos: photos.gallerylist
-      }, 
+      },
         function (err, html) {
             if (err) throw err;
             sh.saveAsHtml('public/html/photos.html', html, fs);
@@ -30,7 +30,7 @@ router.get('/portraits', function(req, res, next) {
           title: 'Madeleine Fellows | Photographer',
           pagename: 'portraits',
           photos: photos.portraits
-      }, 
+      },
       function (err, html) {
         if (err) throw err;
         sh.saveAsHtml('public/html/portraits.html', html, fs);
@@ -46,7 +46,7 @@ router.get('/places', function(req, res, next) {
           title: 'Madeleine Fellows | Photographer',
           pagename: 'places',
           photos: photos.places
-      }, 
+      },
         function (err, html) {
             if (err) throw err;
             sh.saveAsHtml('public/html/places.html', html, fs);
@@ -62,7 +62,7 @@ router.get('/summerculture', function(req, res, next) {
           title: 'Madeleine Fellows | Photographer',
           pagename: 'summer culture',
           photos: photos.summerculture
-      }, 
+      },
         function (err, html) {
             if (err) throw err;
             sh.saveAsHtml('public/html/summerculture.html', html, fs);
@@ -78,7 +78,7 @@ router.get('/home', function(req, res, next) {
           title: 'Madeleine Fellows | Photographer',
           pagename: 'home',
           photos: photos.home
-      }, 
+      },
         function (err, html) {
             if (err) throw err;
             sh.saveAsHtml('public/html/home.html', html, fs);
