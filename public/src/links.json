@@ -1,13 +1,28 @@
 {
-    "stylesheet" : "madeleinefellows.com/style.css",
-    "index" : "madeleinefellows.com",
-    "photos" : "photos.madeleinefellows.com",
-    "portraits" : "madeleinefellows.com/portraits",
-    "summerculture" : "photos.madeleinefellows.com/summerculture",
-    "places" : "photos.madeleinefellows.com/places",
-    "home" : "photos.madeleinefellows.com/portraits",
-    "about" : "madeleinefellows.com/about",
-    "contact" : "madeleinefellows.com/contact",
-    "writing" : "writing.madeleinefellows.com",
-    "projects" : "writing.madeleinefellows.com/projects"
+    "prod" : {
+        "stylesheet" : "madeleinefellows.com/style.css",
+        "index" : "madeleinefellows.com",
+        "photos" : "photos.madeleinefellows.com",
+        "portraits" : "photos.madeleinefellows.com/portraits",
+        "summerculture" : "photos.madeleinefellows.com/summerculture",
+        "places" : "photos.madeleinefellows.com/places",
+        "home" : "photos.madeleinefellows.com/portraits",
+        "about" : "madeleinefellows.com/about",
+        "contact" : "madeleinefellows.com/contact",
+        "writing" : "writing.madeleinefellows.com",
+        "projects" : "writing.madeleinefellows.com/projects"
+    },
+    "dev" : {
+        "stylesheet" : "stylesheets/style.css",
+        "index" : "/",
+        "photos" : "/photos",
+        "portraits" : "photos/portraits",
+        "summerculture" : "photos/summerculture",
+        "places" : "photos/places",
+        "home" : "photos/portraits",
+        "about" : "/about",
+        "contact" : "/contact",
+        "writing" : "/writing",
+        "projects" : "/projects"
+    }
 }
