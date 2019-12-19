@@ -4,10 +4,17 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+// get environment variables
 var dotenv = require('dotenv')
 const result = dotenv.config()
 if (result.error) {
   throw result.error
+}
+
+// move necessary files to public folders, if env is 'production'
+if (process.env.NODE_ENV === 'production') {
+    var saver = require('./public/javascripts/htmlsaver');
+    saver.copyFiles('./public/src/files.json');
 }
 
 var indexRouter = require('./routes/index');
@@ -32,6 +39,12 @@ app.use(express.static(path.join(__dirname, '/public')));
 app.use(lessMiddleware(path.join(__dirname + '/public')));
 app.use('/featherlight', express.static(__dirname + '/node_modules/featherlight/release/'));
 app.use('/jquery', express.static(__dirname + '/node_modules/jquery/dist/'));
+
+// move necessary files to public folders, if env is 'production'
+if (process.env.NODE_ENV === 'production') {
+  var saver = require('./public/javascripts/htmlsaver');
+  saver.copyFiles();
+}
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

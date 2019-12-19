@@ -1,6 +1,6 @@
 {
     "prod" : {
-        "stylesheet" : "madeleinefellows.com/style.css",
+        "stylesheet" : "madeleinefellows.com/stylesheets/style.css",
         "index" : "madeleinefellows.com",
         "photos" : "photos.madeleinefellows.com",
         "portraits" : "photos.madeleinefellows.com/portraits",

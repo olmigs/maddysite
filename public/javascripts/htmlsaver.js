@@ -6,10 +6,16 @@ module.exports = {
             console.log('The file %s has been saved!', fileName);
         });
     },
-    copyFiles: function (files) {
+    copyFiles: function () {
+        var dir = process.cwd();
         var fs = require('fs');
-        for (file in files) {
-            fs.copyFile(file.src, file.dest);
+        var files = require(dir + '/public/src/files.json');
+        var arr = files.toCopy;
+        for (let i = 0; i < arr.length; i++) {
+            fs.copyFile(dir + arr[i]["src"], dir + arr[i]["dest"], (err) => {
+                if (err) throw err;
+                console.log('The file was saved to path: %s.', arr[i]["dest"]);
+            });
         }
     }
 }
