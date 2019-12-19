@@ -10,7 +10,13 @@
         "about" : "madeleinefellows.com/about",
         "contact" : "madeleinefellows.com/contact",
         "writing" : "writing.madeleinefellows.com",
-        "projects" : "writing.madeleinefellows.com/projects"
+        "projects" : "writing.madeleinefellows.com/projects",
+        "feather_style": "madeleinefellows.com/stylesheets/featherlight.min.css",
+        "feathergallery_style" : "madeleinefellows.com/stylesheets/featherlight.gallery.min.css",
+        "jquery" : "madeleinefellows.com/javascripts/jquery.js",
+        "feather_js" : "madeleinefellows.com/javascripts/featherlight.min.js",
+        "feathergallery_js" : "madeleinefellows.com/javascripts/featherlight.gallery.min.js",
+        "gallerycaption" : "madeleinefellows.com/javascripts/gallerycaption.js"
     },
     "dev" : {
         "stylesheet" : "stylesheets/style.css",
@@ -23,6 +29,12 @@
         "about" : "/about",
         "contact" : "/contact",
         "writing" : "/writing",
-        "projects" : "/projects"
+        "projects" : "/projects",
+        "feather_style": "/featherlight/featherlight.min.css",
+        "feathergallery_style" : "/featherlight/featherlight.gallery.min.css",
+        "jquery" : "/jquery/jquery.js",
+        "feather_js" : "/featherlight/featherlight.min.js",
+        "feathergallery_js" : "/featherlight/featherlight.gallery.min.js",
+        "gallerycaption" : "/javascripts/gallerycaption.js"
     }
 }
