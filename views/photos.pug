@@ -11,6 +11,6 @@ block page-content
         div.photogallery
             each photo in photos
                 div(class='photile')
-                    a(href=photo.link alt=photo.title)
+                    a(href=(process.env.NODE_ENV === 'development') ? photo.devlink : photo.prodlink alt=photo.title)
                         img(src=photo.thumblink)
                         p= photo.title

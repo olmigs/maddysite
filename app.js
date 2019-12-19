@@ -4,6 +4,12 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+var dotenv = require('dotenv')
+const result = dotenv.config()
+if (result.error) {
+  throw result.error
+}
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var writingRouter = require('./routes/writing');
