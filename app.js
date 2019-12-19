@@ -11,12 +11,6 @@ if (result.error) {
   throw result.error
 }
 
-// move necessary files to public folders, if env is 'production'
-if (process.env.NODE_ENV === 'production') {
-    var saver = require('./public/javascripts/htmlsaver');
-    saver.copyFiles('./public/src/files.json');
-}
-
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var writingRouter = require('./routes/writing');
