@@ -4,17 +4,11 @@ const SECRET = 'OVv6BjSHOWpobm0aNucIBK3gQLi2tvhT1ZcMRLT2';
 const fs = require('fs');
 const AWS = require('aws-sdk');
 
+AWS.config.update({ accessKeyId: ID, secretAccessKey: SECRET });
+
 const s3 = new AWS.S3({
-    accessKeyId: ID,
-    secretAccessKey: SECRET,
     region: "us-west-2"
 });
-
-// console.log(s3.getBucketLocation(params={
-//     Bucket: "https://s3-us-west-2.amazonaws.com/madeleinefellows.com", 
-//     LocationConstraint: "us-west-2"}
-// )._events.httpError);
-//console.log(s3.listBuckets()._events.httpError);
 
 const uploadFile = (filePath, bucket, fileName) => {
     // Read content from the file
@@ -50,5 +44,7 @@ const uploadToS3 = () => {
 }
 
 // testing UploadFile()
-uploadFile("./public/html/index.html", "s3.amazonaws.com/madeleinefellows.com", "test");
+uploadFile("./public/html/index.html", "madeleinefellows.com", "test");
+
+// below call deploys the static content of maddysite to respective buckets
 //uploadToS3();
