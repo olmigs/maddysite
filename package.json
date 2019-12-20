@@ -9,6 +9,7 @@
     "winstart": "SET DEBUG=maddysite:* & npm run devstart"
   },
   "dependencies": {
+    "aws-sdk": "^2.594.0",
     "cookie-parser": "~1.4.4",
     "debug": "~4.1.1",
     "dotenv": "^8.2.0",
@@ -25,6 +26,12 @@
     "nodemon": "^2.0.1"
   },
   "nodemonConfig": {
-    "ignore": ["./public"]
+    "ignore": [
+      "./public/stylesheets/featherlight.min.css",
+      "./public/stylesheets/featherlight.gallery.min.css",
+      "./public/javascripts/jquery.js",
+      "./public/javascripts/featherlight.min.js",
+      "./public/javascripts/featherlight.gallery.min.js"
+    ]
   }
 }

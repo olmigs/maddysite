@@ -9,7 +9,7 @@ module.exports = {
     copyFiles: function () {
         var dir = process.cwd();
         var fs = require('fs');
-        var files = require(dir + '/public/src/files.json');
+        var files = require(dir + '/public/src/filesToCopy.json');
         var arr = files.toCopy;
         for (let i = 0; i < arr.length; i++) {
             fs.copyFile(dir + arr[i]["src"], dir + arr[i]["dest"], (err) => {

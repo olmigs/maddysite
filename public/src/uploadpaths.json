@@ -1,0 +1,35 @@
+{
+    "paths" : [
+        {
+            "bucket": "madeleinefellows.com",
+            "array" : [
+                {"path": "./public/html/index.html", "name": "index"},
+                {"path": "./public/html/contact.html", "name": "contact"},
+                {"path": "./public/html/about.html", "name": "about"},
+                {"path": "./public/stylesheets/style.css", "name": "stylesheets/style.css"},
+                {"path": "./public/stylesheets/featherlight.min.css", "name": "stylesheets/featherlight.min.css"},
+                {"path": "./public/stylesheets/featherlight.gallery.min.css", "name": "stylesheets/featherlight.gallery.min.css"},
+                {"path": "./public/javascripts/jquery.js", "name": "javascripts/jquery.js"},
+                {"path": "./public/javascripts/featherlight.gallery.min.js", "name": "javascripts/featherlight.gallery.min.js"},
+                {"path": "./public/javascripts/featherlight.min.js", "name": "javascripts/featherlight.min.js"},
+                {"path": "./public/javascripts/gallerycaption.js", "name": "javascripts/gallerycaption.js"}
+            ]
+        },
+        {
+            "bucket": "photos.madeleinefellows.com",
+            "array" : [
+                {"path": "./public/html/photos.html", "name": "index"},
+                {"path": "./public/html/places.html", "name": "places"},
+                {"path": "./public/html/portraits.html", "name": "portraits"},
+                {"path": "./public/html/summerculture.html", "name": "summerculture"},
+                {"path": "./public/html/home.html", "name": "home"}
+            ]
+        },
+        {
+            "bucket": "writing.madeleinefellows.com",
+            "array" : [
+                {"path": "./public/html/writing.html", "name": "writing"}
+            ]
+        }
+    ]
+}
