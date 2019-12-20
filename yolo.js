@@ -6,10 +6,15 @@ const AWS = require('aws-sdk');
 
 const s3 = new AWS.S3({
     accessKeyId: ID,
-    secretAccessKey: SECRET
+    secretAccessKey: SECRET,
+    region: "us-west-2"
 });
 
-console.log(s3.getBucketLocation(params={Bucket: "http://s3-us-west-2.amazonaws.madeleinefellows.com"}));
+// console.log(s3.getBucketLocation(params={
+//     Bucket: "https://s3-us-west-2.amazonaws.com/madeleinefellows.com", 
+//     LocationConstraint: "us-west-2"}
+// )._events.httpError);
+//console.log(s3.listBuckets()._events.httpError);
 
 const uploadFile = (filePath, bucket, fileName) => {
     // Read content from the file
@@ -19,7 +24,8 @@ const uploadFile = (filePath, bucket, fileName) => {
     var params = {
         Bucket: bucket,
         Key: fileName, // File name you want to save as in S3
-        Body: fileContent
+        Body: fileContent,
+        Region: "us-west-2"
     };
 
     // Uploading files to the bucket
@@ -44,5 +50,5 @@ const uploadToS3 = () => {
 }
 
 // testing UploadFile()
-//uploadFile("./public/html/index.html", "madeleinefellows.com", "index");
+uploadFile("./public/html/index.html", "s3.amazonaws.com/madeleinefellows.com", "test");
 //uploadToS3();
