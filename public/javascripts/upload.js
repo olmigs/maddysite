@@ -1,5 +1,5 @@
-const ID = '';
-const SECRET = '';
+const ID = 'AKIAV32ENCU2QAATWXXI';
+const SECRET = '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';
 
 const WRITE_BUCKET = 'test-bucket';
 const PHOTOS_BUCKET = 'test-bucket';
