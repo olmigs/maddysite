@@ -1,5 +1,5 @@
-const http = require('http')
-const links = require('../public/src/links.json');
+const http = require('http');
+const links = require('../src/links.json');
 const arr = links.dev;
 const pathNames = [
     "index",
@@ -25,7 +25,13 @@ for (let i = 0; i < pathNames.length; i++) {
         console.log(`statusCode: ${res.statusCode}`);
       
         res.on('data', d => {
-          process.stdout.write(d)
+          console.log(path);
+          process.stdout.write(d.statusCode);
         });
-      });
+    });
+    req.on('error', error => {
+        console.error(error);
+    })
+      
+    req.end();
 }

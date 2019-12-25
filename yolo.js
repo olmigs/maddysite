@@ -10,7 +10,7 @@ const s3 = new AWS.S3({
     region: "us-west-2"
 });
 
-const uploadFile = (filePath, bucket, fileName) => {
+const uploadFile = (filePath, bucket, fileName, fileType) => {
     // Read content from the file
     var fileContent = fs.readFileSync(filePath);
 
@@ -19,6 +19,7 @@ const uploadFile = (filePath, bucket, fileName) => {
         Bucket: bucket,
         Key: fileName, // File name you want to save as in S3
         Body: fileContent,
+        ContentType: fileType,
         Region: "us-west-2"
     };
 
@@ -38,13 +39,13 @@ const uploadToS3 = () => {
         let bucketName = obj["bucket"];
         let arr = obj["array"];
         for (let j = 0; j < arr.length; j++) {
-            uploadFile(arr[j]["path"], bucketName, arr[j]["name"]);
+            uploadFile(arr[j]["path"], bucketName, arr[j]["name"], arr[j]["type"]);
         }
     }
 }
 
 // testing UploadFile()
-uploadFile("./public/html/index.html", "madeleinefellows.com", "test");
+//uploadFile("./public/html/index.html", "madeleinefellows.com", "test");
 
 // below call deploys the static content of maddysite to respective buckets
-//uploadToS3();
+uploadToS3();

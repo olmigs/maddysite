@@ -50,25 +50,25 @@
         {
             "title" : "Places",
             "devlink" : "/photos/places",
-            "prodlink" : "photos.madeleinefellows.com/places",
+            "prodlink" : "http://photos.madeleinefellows.com/places",
             "thumblink" : "http://photos.madeleinefellows.com/galleries/places/clouds-thumbnail.jpg"
         },
         {
             "title" : "Portraits",
             "devlink" : "/photos/portraits",
-            "prodlink" : "photos.madeleinefellows.com/portraits",
+            "prodlink" : "http://photos.madeleinefellows.com/portraits",
             "thumblink" : "http://photos.madeleinefellows.com/galleries/portraits/sarah-thumbnail.jpg"
         },
         {
             "title" : "Summer Culture",
             "devlink" : "/photos/summerculture",
-            "prodlink" : "photos.madeleinefellows.com/summerculture",
+            "prodlink" : "http://photos.madeleinefellows.com/summerculture",
             "thumblink" : "http://photos.madeleinefellows.com/galleries/summercult/copperdog-thumbnail.jpg"
         },
         {
             "title" : "Home",
             "devlink" : "/photos/home",
-            "prodlink" : "photos.madeleinefellows.com/home",
+            "prodlink" : "http://photos.madeleinefellows.com/home",
             "thumblink" : "http://photos.madeleinefellows.com/galleries/home/flores-thumbnail.jpg"
         }
     ],
