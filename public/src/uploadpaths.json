@@ -1,0 +1,35 @@
+{
+    "paths" : [
+        {
+            "bucket": "madeleinefellows.com",
+            "array" : [
+                {"path": "./public/html/index.html", "name": "index", "type": "text/html"},
+                {"path": "./public/html/contact.html", "name": "contact", "type": "text/html"},
+                {"path": "./public/html/about.html", "name": "about", "type": "text/html"},
+                {"path": "./public/stylesheets/style.css", "name": "stylesheets/style.css", "type": "text/css"},
+                {"path": "./public/stylesheets/featherlight.min.css", "name": "stylesheets/featherlight.min.css", "type": "text/css"},
+                {"path": "./public/stylesheets/featherlight.gallery.min.css", "name": "stylesheets/featherlight.gallery.min.css", "type": "text/css"},
+                {"path": "./public/javascripts/jquery.js", "name": "javascripts/jquery.js", "type": "application/x-javascript"},
+                {"path": "./public/javascripts/featherlight.gallery.min.js", "name": "javascripts/featherlight.gallery.min.js", "type": "application/x-javascript"},
+                {"path": "./public/javascripts/featherlight.min.js", "name": "javascripts/featherlight.min.js", "type": "application/x-javascript"},
+                {"path": "./public/javascripts/gallerycaption.js", "name": "javascripts/gallerycaption.js", "type": "application/x-javascript"}
+            ]
+        },
+        {
+            "bucket": "photos.madeleinefellows.com",
+            "array" : [
+                {"path": "./public/html/photos.html", "name": "index", "type": "text/html"},
+                {"path": "./public/html/places.html", "name": "places", "type": "text/html"},
+                {"path": "./public/html/portraits.html", "name": "portraits", "type": "text/html"},
+                {"path": "./public/html/summerculture.html", "name": "summerculture", "type": "text/html"},
+                {"path": "./public/html/home.html", "name": "home", "type": "text/html"}
+            ]
+        },
+        {
+            "bucket": "writing.madeleinefellows.com",
+            "array" : [
+                {"path": "./public/html/writing.html", "name": "index", "type": "text/html"}
+            ]
+        }
+    ]
+}

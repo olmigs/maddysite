@@ -23,6 +23,33 @@ ul {
     list-style-type: none;
 }
 
+.site-name-nav h1 {
+    font-size: 25px;
+}
+
+// index page-specific styles
+.index-site-name-nav {
+    margin: 50pt;
+    padding-top: 30px;
+    text-align: center;
+    min-width: 200pt;
+    min-height: 200pt;
+}
+
+.index-site-name-nav h1 {
+    font-size: 50px;
+}
+
+.index_nav a {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.index_nav a:hover {
+    color: @slategreen;
+    background-color: @slategreenhov;
+}
+
 // toggle subnavigation bar on HOVER
 .subnav {
     display: none;
@@ -58,17 +85,26 @@ li#subnavParent:hover .subnav{
 }
 
 .site-name-nav {
-    @flexdefs();
+    margin: 30pt;
+    text-align: left;
     min-width: 200pt;
+    min-height: 200pt;
 }
 
 .pagecontent {
-    margin: 70pt;
+    margin: 50pt;
+    width: 500pt;
+    min-width: 300pt;
+    min-height: 200pt;
+    overflow: auto;
 }
 
 .sitefoot {
     text-align: center;
-    margin-top: 30pt;
+    position: -webkit-sticky; /* Safari */  
+    position: sticky;
+    top: 100%;
+    bottom: 0;
 }
 
 .sitefoot ul {

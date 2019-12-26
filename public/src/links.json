@@ -1,0 +1,40 @@
+{
+    "prod" : {
+        "stylesheet" : "http://madeleinefellows.com/stylesheets/style.css",
+        "index" : "http://madeleinefellows.com",
+        "photos" : "http://photos.madeleinefellows.com",
+        "portraits" : "http://photos.madeleinefellows.com/portraits",
+        "summerculture" : "http://photos.madeleinefellows.com/summerculture",
+        "places" : "http://photos.madeleinefellows.com/places",
+        "home" : "http://photos.madeleinefellows.com/home",
+        "about" : "http://madeleinefellows.com/about",
+        "contact" : "http://madeleinefellows.com/contact",
+        "writing" : "http://writing.madeleinefellows.com",
+        "projects" : "http://writing.madeleinefellows.com/projects",
+        "feather_style": "http://madeleinefellows.com/stylesheets/featherlight.min.css",
+        "feathergallery_style" : "http://madeleinefellows.com/stylesheets/featherlight.gallery.min.css",
+        "jquery" : "http://madeleinefellows.com/javascripts/jquery.js",
+        "feather_js" : "http://madeleinefellows.com/javascripts/featherlight.min.js",
+        "feathergallery_js" : "http://madeleinefellows.com/javascripts/featherlight.gallery.min.js",
+        "gallerycaption" : "http://madeleinefellows.com/javascripts/gallerycaption.js"
+    },
+    "dev" : {
+        "stylesheet" : "/stylesheets/style.css",
+        "index" : "/",
+        "photos" : "/photos/",
+        "portraits" : "/photos/portraits",
+        "summerculture" : "/photos/summerculture",
+        "places" : "/photos/places",
+        "home" : "/photos/home",
+        "about" : "/about/",
+        "contact" : "/contact/",
+        "writing" : "/writing/",
+        "projects" : "/writing/projects",
+        "feather_style": "/featherlight/featherlight.min.css",
+        "feathergallery_style" : "/featherlight/featherlight.gallery.min.css",
+        "jquery" : "/jquery/jquery.js",
+        "feather_js" : "/featherlight/featherlight.min.js",
+        "feathergallery_js" : "/featherlight/featherlight.gallery.min.js",
+        "gallerycaption" : "/javascripts/gallerycaption.js"
+    }
+}

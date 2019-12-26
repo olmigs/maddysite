@@ -1,0 +1,226 @@
+{
+    "portraits": [
+        {
+            "title" : "Coast",
+            "link" : "http://photos.madeleinefellows.com/galleries/portraits/coast.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/portraits/coast-thumbnail.jpg"
+        },
+        {
+            "title" : "Fran & Molly",
+            "link" : "http://photos.madeleinefellows.com/galleries/portraits/franandmolly.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/portraits/franandmolly-thumbnail.jpg"
+        },
+        {
+            "title" : "Lasso the Moon 1",
+            "link" : "http://photos.madeleinefellows.com/galleries/portraits/lassothemoon.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/portraits/lassothemoon-thumbnail.jpg"
+        },
+        {
+            "title" : "LOL",
+            "link" : "http://photos.madeleinefellows.com/galleries/portraits/lol.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/portraits/lol-thumbnail.jpg"
+        },
+        {
+            "title" : "Mustache",
+            "link" : "http://photos.madeleinefellows.com/galleries/portraits/mustache.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/portraits/mustache-thumbnail.jpg"
+        },
+        {
+            "title" : "My Love",
+            "link" : "http://photos.madeleinefellows.com/galleries/portraits/mylove.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/portraits/mylove-thumbnail.jpg"
+        },
+        {
+            "title" : "Ocean Eyes",
+            "link" : "http://photos.madeleinefellows.com/galleries/portraits/oceaneyes.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/portraits/oceaneyes-thumbnail.jpg"
+        },
+        {
+            "title" : "Sarah",
+            "link" : "http://photos.madeleinefellows.com/galleries/portraits/sarah.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/portraits/sarah-thumbnail.jpg"
+        },
+        {
+            "title" : "Selfie",
+            "link" : "http://photos.madeleinefellows.com/galleries/portraits/selfie.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/portraits/selfie-thumbnail.jpg"
+        }
+    ],
+    "gallerylist": [
+        {
+            "title" : "Places",
+            "devlink" : "/photos/places",
+            "prodlink" : "http://photos.madeleinefellows.com/places",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/places/clouds-thumbnail.jpg"
+        },
+        {
+            "title" : "Portraits",
+            "devlink" : "/photos/portraits",
+            "prodlink" : "http://photos.madeleinefellows.com/portraits",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/portraits/sarah-thumbnail.jpg"
+        },
+        {
+            "title" : "Summer Culture",
+            "devlink" : "/photos/summerculture",
+            "prodlink" : "http://photos.madeleinefellows.com/summerculture",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/summercult/copperdog-thumbnail.jpg"
+        },
+        {
+            "title" : "Home",
+            "devlink" : "/photos/home",
+            "prodlink" : "http://photos.madeleinefellows.com/home",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/home/flores-thumbnail.jpg"
+        }
+    ],
+    "places": [
+        {
+            "title" : "Clouds",
+            "link" : "http://photos.madeleinefellows.com/galleries/places/clouds.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/places/clouds-thumbnail.jpg"
+        },
+        {
+            "title" : "Bulletin",
+            "link" : "http://photos.madeleinefellows.com/galleries/places/bulletin.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/places/bulletin-thumbnail.jpg"
+        },
+        {
+            "title" : "Propped Up",
+            "link" : "http://photos.madeleinefellows.com/galleries/places/proppedup.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/places/proppedup-thumbnail.jpg"
+        },
+        {
+            "title" : "God Through Trees 1",
+            "link" : "http://photos.madeleinefellows.com/galleries/places/godthroughtrees.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/places/godthroughtrees-thumbnail.jpg"
+        },
+        {
+            "title" : "God Through Trees 2",
+            "link" : "http://photos.madeleinefellows.com/galleries/places/godthroughtrees2.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/places/godthroughtrees2-thumbnail.jpg"
+        },
+        {
+            "title" : "Untitled",
+            "link" : "http://photos.madeleinefellows.com/galleries/places/gravestone.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/places/gravestone-thumbnail.jpg"
+        },
+        {
+            "title" : "Gravestones",
+            "link" : "http://photos.madeleinefellows.com/galleries/places/gravestones.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/places/gravestones-thumbnail.jpg"
+        },
+        {
+            "title" : "Hoops",
+            "link" : "http://photos.madeleinefellows.com/galleries/places/hoops.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/places/hoops-thumbnail.jpg"
+        },
+        {
+            "title" : "Stairwell",
+            "link" : "http://photos.madeleinefellows.com/galleries/places/stairwell.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/places/stairwell-thumbnail.jpg"
+        }
+    ],
+    "summerculture": [
+        {
+            "title" : "Blackberries",
+            "link" : "http://photos.madeleinefellows.com/galleries/summercult/blackberries.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/summercult/blackberries-thumbnail.jpg"
+        },
+        {
+            "title" : "Chug",
+            "link" : "http://photos.madeleinefellows.com/galleries/summercult/chug.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/summercult/chug-thumbnail.jpg"
+        },
+        {
+            "title" : "Copper the Dog",
+            "link" : "http://photos.madeleinefellows.com/galleries/summercult/copperdog.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/summercult/copperdog-thumbnail.jpg"
+        },
+        {
+            "title" : "Docks",
+            "link" : "http://photos.madeleinefellows.com/galleries/summercult/docks.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/summercult/docks-thumbnail.jpg"
+        },
+        {
+            "title" : "I'll Take 3 Beers",
+            "link" : "http://photos.madeleinefellows.com/galleries/summercult/illtake3beers.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/summercult/illtake3beers-thumbnail.jpg"
+        },
+        {
+            "title" : "Miguel",
+            "link" : "http://photos.madeleinefellows.com/galleries/summercult/miguel.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/summercult/miguel-thumbnail.jpg"
+        },
+        {
+            "title" : "Peak Summer Culture",
+            "link" : "http://photos.madeleinefellows.com/galleries/summercult/peaksummerculture.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/summercult/peaksummerculture-thumbnail.jpg"
+        },
+        {
+            "title" : "Sarah on the Dock",
+            "link" : "http://photos.madeleinefellows.com/galleries/summercult/sarahdock.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/summercult/sarahdock-thumbnail.jpg"
+        },
+        {
+            "title" : "Waves",
+            "link" : "http://photos.madeleinefellows.com/galleries/summercult/waves.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/summercult/waves-thumbnail.jpg"
+        }
+    ],
+    "home": [
+        {
+            "title" : "Boat",
+            "link" : "http://photos.madeleinefellows.com/galleries/home/boat.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/home/boat-thumbnail.jpg"
+        },
+        {
+            "title" : "Flores",
+            "link" : "http://photos.madeleinefellows.com/galleries/home/flores.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/home/flores-thumbnail.jpg"
+        },
+        {
+            "title" : "Handlebars",
+            "link" : "http://photos.madeleinefellows.com/galleries/home/handlebars.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/home/handlebars-thumbnail.jpg"
+        },
+        {
+            "title" : "Lasso the Moon 2",
+            "link" : "http://photos.madeleinefellows.com/galleries/home/lassothemoonpart2.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/home/lassothemoonpart2-thumbnail.jpg"
+        },
+        {
+            "title" : "Over It",
+            "link" : "http://photos.madeleinefellows.com/galleries/home/overit.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/home/overit-thumbnail.jpg"
+        },
+        {
+            "title" : "Peaceful",
+            "link" : "http://photos.madeleinefellows.com/galleries/home/peaceful.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/home/peaceful-thumbnail.jpg"
+        },
+        {
+            "title" : "Pie",
+            "link" : "http://photos.madeleinefellows.com/galleries/home/pie.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/home/pie-thumbnail.jpg"
+        },
+        {
+            "title" : "Piemakers",
+            "link" : "http://photos.madeleinefellows.com/galleries/home/piemakers.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/home/piemakers-thumbnail.jpg"
+        },
+        {
+            "title" : "Sellwood",
+            "link" : "http://photos.madeleinefellows.com/galleries/home/sellwood.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/home/sellwood-thumbnail.jpg"
+        },
+        {
+            "title" : "Shiner",
+            "link" : "http://photos.madeleinefellows.com/galleries/home/shiner.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/home/shiner-thumbnail.jpg"
+        },
+        {
+            "title" : "Teaching",
+            "link" : "http://photos.madeleinefellows.com/galleries/home/teaching.jpg",
+            "thumblink" : "http://photos.madeleinefellows.com/galleries/home/teaching-thumbnail.jpg"
+        }
+    ]
+}

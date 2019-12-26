@@ -1,0 +1,9 @@
+{
+    "toCopy" : [
+        {"src" : "/node_modules/featherlight/release/featherlight.min.css", "dest" : "/public/stylesheets/featherlight.min.css"},
+        {"src" : "/node_modules/featherlight/release/featherlight.gallery.min.css", "dest" : "/public/stylesheets/featherlight.gallery.min.css"},
+        {"src" : "/node_modules/jquery/dist/jquery.js", "dest" : "/public/javascripts/jquery.js"},
+        {"src" : "/node_modules/featherlight/release/featherlight.min.js", "dest" : "/public/javascripts/featherlight.min.js"},
+        {"src" : "/node_modules/featherlight/release/featherlight.gallery.min.js", "dest" : "/public/javascripts/featherlight.gallery.min.js"}
+    ]
+}
