@@ -35,6 +35,7 @@
         "jquery" : "/jquery/jquery.js",
         "feather_js" : "/featherlight/featherlight.min.js",
         "feathergallery_js" : "/featherlight/featherlight.gallery.min.js",
-        "gallerycaption" : "/javascripts/gallerycaption.js"
+        "gallerycaption" : "/javascripts/gallerycaption.js",
+        "error" : "/error/"
     }
 }
