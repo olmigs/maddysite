@@ -29,7 +29,7 @@ const uploadFile = (filePath, bucket, fileName, fileType) => {
         if (err) {
             throw err;
         }
-        console.log(`File uploaded successfully. ${data.Location}`);
+        console.log(`File "${fileName}" uploaded successfully to ${bucket}.`);
     });
 };
 
