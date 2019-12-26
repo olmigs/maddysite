@@ -12,6 +12,9 @@ module.exports = {
         var files = require(dir + '/public/src/filesToCopy.json');
         var arr = files.toCopy;
         for (let i = 0; i < arr.length; i++) {
+            let src = fs.readFileSync(dir + arr[i]["src"]);
+            let dest = fs.readFileSync(dir + arr[i]["dest"]);
+            if (src.equals(dest)) { continue; }
             fs.copyFile(dir + arr[i]["src"], dir + arr[i]["dest"], (err) => {
                 if (err) throw err;
                 console.log('The file was saved to path: %s.', arr[i]["dest"]);
