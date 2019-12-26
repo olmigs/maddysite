@@ -1,5 +1,6 @@
-const ID = 'AKIAV32ENCU2QAATWXXI';
-const SECRET = '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';
+const creds = require('./credentials.json');
+const ID = creds.awss3["id"];
+const SECRET = creds.awss3["secret"];
 
 const fs = require('fs');
 const AWS = require('aws-sdk');
