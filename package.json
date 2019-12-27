@@ -9,7 +9,7 @@
     "winstart": "SET DEBUG=maddysite:* & npm run devstart"
   },
   "dependencies": {
-    "aws-sdk": "^2.594.0",
+    "aws-sdk": "^2.596.0",
     "cookie-parser": "~1.4.4",
     "debug": "~4.1.1",
     "dotenv": "^8.2.0",
@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "less": "^3.10.3",
-    "nodemon": "^2.0.1"
+    "nodemon": "^2.0.2"
   },
   "nodemonConfig": {
     "ignore": [

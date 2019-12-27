@@ -17,6 +17,7 @@ var writingRouter = require('./routes/writing');
 var photoRouter = require('./routes/photos');
 var aboutRouter = require('./routes/about');
 var contactRouter = require('./routes/contact');
+var errorRouter = require('./routes/error')
 var lessMiddleware = require('less-middleware');
 
 var app = express();
@@ -46,6 +47,7 @@ app.use('/writing', writingRouter);
 app.use('/photos', photoRouter);
 app.use('/about', aboutRouter);
 app.use('/contact', contactRouter);
+app.use('/error', errorRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
