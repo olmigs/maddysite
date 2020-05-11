@@ -14,6 +14,8 @@ if (result.error) {
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var writingRouter = require('./routes/writing');
+var zinesRouter = require('./routes/zines');
+var comedyRouter = require('./routes/comedy');
 var photoRouter = require('./routes/photos');
 var aboutRouter = require('./routes/about');
 var contactRouter = require('./routes/contact');
@@ -44,6 +46,8 @@ if (process.env.NODE_ENV === 'production') {
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/writing', writingRouter);
+app.use('/zines', zinesRouter);
+app.use('/comedy', comedyRouter);
 app.use('/photos', photoRouter);
 app.use('/about', aboutRouter);
 app.use('/contact', contactRouter);

@@ -1,22 +1,22 @@
-@slateblue: #7C9EC3;    // background
-@slategreen: #002A2A;   // text
-@slategreenhov: lighten(@slategreen, 20%);   // hover color
+@backcolor: #A8BA82; // background (was: #7C9EC3)
+@textcolor: #313623; // text (was: #002A2A)
+@texthovercolor: #E8D8C3; //darken(@textcolor, 20%);   // hover color
 
 body {
     padding: 25px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    background: @slateblue;
-    color: @slategreen;
+    font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: @backcolor;
+    color: @textcolor;
 }
 
 a,
 .link {
     text-decoration: none;
-    color: @slategreen;
+    color: @textcolor;
 }
 
 a:hover {
-    color: @slategreenhov;
+    color: @texthovercolor;
 }
 
 ul {
@@ -24,7 +24,7 @@ ul {
 }
 
 .site-name-nav h1 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 // index page-specific styles
@@ -43,20 +43,20 @@ ul {
 .index_nav a {
     padding: 10px;
     font-size: 25px;
-    color: white;
+    color: @textcolor;
 }
 
 .index_nav a:hover {
-    color: @slategreen;
-    background-color: @slategreenhov;
+    color: @textcolor;
+    background-color: @texthovercolor;
 }
 
 .sitefoot-index a {
-    color: white;
+    color: @textcolor;
 }
 
 .sitefoot-index a:hover {
-    color: @slategreenhov;
+    color: @texthovercolor;
 }
 
 // toggle subnavigation bar on HOVER
@@ -73,7 +73,7 @@ li#subnavParent:hover .subnav{
     position: absolute;
     top: 0;
     font-size: larger;
-    color: @slategreen;
+    color: @textcolor;
     background-color: rgba(255, 255, 255, .5);
     padding: 5px;
     margin-top: 30px;
@@ -110,7 +110,7 @@ li#subnavParent:hover .subnav{
 
 .sitefoot {
     text-align: center;
-    position: -webkit-sticky; /* Safari */  
+    position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 100%;
     bottom: 0;

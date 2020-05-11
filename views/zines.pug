@@ -1,0 +1,8 @@
+extends page
+block page-content
+    div.pagecontent
+        h3= pagename
+        p Maddy combines her writing and photography into digital zines:
+        div.zinegallery
+            each zine in zines
+                p #[a(href=zine.link)= zine.title]

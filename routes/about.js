@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
           sitename: 'madeleine fellows',
           title: 'Madeleine Fellows | About',
           pagename: 'about me',
-          maddy_img: 'http://photos.madeleinefellows.com/galleries/portraits/selfie-mini.jpg',
+          maddy_img: 'http://photos.madeleinefellows.com/galleries/portraits/selfie-about.jpg',
           links: (process.env.NODE_ENV === 'development') ? links.dev : links.prod
       },
           function (err, html) {
