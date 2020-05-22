@@ -3,6 +3,16 @@ block page-content
     div.pagecontent
         h3= pagename
         p Maddy is the editor-in-chief of the comedy zine, #[a(href=kickedOutUrl) Kicked Out!], featuring work by performers from #[a(href=kickstandUrl) Kickstand Comedy Space]. 
-        p Maddy performs in weekly & monthly shows at Kickstand Comedy. She does stand-up, improv and character shows. 
-        p She was on Kickstand’s student house team “Soup’s Up!” from Summer 2019 ‘til Spring 2020. “Soup’s Up!” has continued as an indie team. 
-        p Maddy laughs at her own joke. 
+        hr
+        span
+          p Maddy performs in weekly & monthly shows at Kickstand Comedy. She does stand-up, improv and character shows. 
+          p She was on Kickstand’s student house team “Soup’s Up!” from Summer 2019 ‘til Spring 2020. “Soup’s Up!” has continued as an indie team. 
+          figure(align="center")
+            img(src=photos["maddyLaughs"] alt="Maddy Laughs")
+            figcaption(style={'font-size':'12px'}) Maddy laughs at her own joke. 
+        hr
+        span
+          p Maddy also makes comedy videos on Instagram.
+          each embed in embeds
+            iframe(width="440" height="600" src=embed.link frameborder="0")
+            p

@@ -6,6 +6,7 @@
                 {"path": "./public/html/index.html", "name": "index", "type": "text/html"},
                 {"path": "./public/html/contact.html", "name": "contact", "type": "text/html"},
                 {"path": "./public/html/about.html", "name": "about", "type": "text/html"},
+                {"path": "./public/html/comedy.html", "name": "comedy", "type": "text/html"},
                 {"path": "./public/html/error.html", "name": "error", "type": "text/html"},
                 {"path": "./public/stylesheets/style.css", "name": "stylesheets/style.css", "type": "text/css"},
                 {"path": "./public/stylesheets/featherlight.min.css", "name": "stylesheets/featherlight.min.css", "type": "text/css"},
@@ -31,6 +32,7 @@
             "bucket": "writing.madeleinefellows.com",
             "array" : [
                 {"path": "./public/html/writing.html", "name": "index", "type": "text/html"},
+                {"path": "./public/html/zines.html", "name": "zines", "type": "text/html"},
                 {"path": "./public/html/error.html", "name": "error", "type": "text/html"}
             ]
         }

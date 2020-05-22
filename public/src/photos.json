@@ -222,5 +222,11 @@
             "link" : "http://photos.madeleinefellows.com/galleries/home/teaching.jpg",
             "thumblink" : "http://photos.madeleinefellows.com/galleries/home/teaching-thumbnail.jpg"
         }
-    ]
+    ],
+    "comedyPage" : {
+      "maddyLaughs" : "http://photos.madeleinefellows.com/galleries/misc/maddylaughs.jpg"
+    },
+    "writingPage" : {
+      "deepEnd" : "http://photos.madeleinefellows.com/galleries/misc/deependLC.jpg"
+    }
 }
