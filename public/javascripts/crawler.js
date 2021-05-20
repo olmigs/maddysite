@@ -11,6 +11,8 @@ const pathNames = [
     "about",
     "contact",
     "writing",
+    "zines",
+    "comedy",
     "error"
 ];
 
@@ -24,7 +26,7 @@ for (let i = 0; i < pathNames.length; i++) {
     };
     let req = http.request(options, res => {
         console.log(`${pathNames[i]} | ` + `statusCode: ${res.statusCode}`);
-      
+
         res.on('data', d => {
           process.stdout.write(d.statusCode);
         });
@@ -32,6 +34,6 @@ for (let i = 0; i < pathNames.length; i++) {
     req.on('error', error => {
         console.error(error);
     })
-      
+
     req.end();
 }

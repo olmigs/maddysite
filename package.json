@@ -9,21 +9,22 @@
     "winstart": "SET DEBUG=maddysite:* & npm run devstart"
   },
   "dependencies": {
-    "aws-sdk": "^2.596.0",
-    "cookie-parser": "~1.4.4",
+    "aws-sdk": "^2.683.0",
+    "cookie-parser": "^1.4.5",
     "debug": "~4.1.1",
     "dotenv": "^8.2.0",
     "express": "~4.17.1",
     "featherlight": "^1.7.14",
     "http-errors": "~1.7.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.2.2",
     "less-middleware": "^3.1.0",
     "morgan": "~1.9.1",
     "pug": "^2.0.4"
   },
   "devDependencies": {
-    "less": "^3.10.3",
-    "nodemon": "^2.0.2"
+    "less": "^3.11.1",
+    "nodemon": "^2.0.4"
   },
   "nodemonConfig": {
     "ignore": [

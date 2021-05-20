@@ -1,1 +1,5 @@
+bin/
+node_modules/
 credentials.json
+README2.md
+public/javascripts/functions.js
