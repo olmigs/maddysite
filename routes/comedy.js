@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
           sitename: 'madeleine fellows',
           title: 'Madeleine Fellows | Comedian',
           pagename: 'comedy',
-          kickedOutUrl: 'http://www.kickedout.placeholder.com',
+          kickedOutUrl: 'http://www.kickstandcomedy.org/zine',
           kickstandUrl: 'http://www.kickstandcomedy.org',
           embeds: embeds.embedslist,
           photos: photos.comedyPage,

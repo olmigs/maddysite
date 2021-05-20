@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
       res.render('about', {
           sitename: 'madeleine fellows',
           title: 'Madeleine Fellows | About',
-          pagename: 'about me',
+          pagename: 'about maddy',
           maddy_img: 'http://photos.madeleinefellows.com/galleries/portraits/selfie-about.jpg',
           links: (process.env.NODE_ENV === 'development') ? links.dev : links.prod
       },

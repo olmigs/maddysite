@@ -224,7 +224,8 @@
         }
     ],
     "comedyPage" : {
-      "maddyLaughs" : "http://photos.madeleinefellows.com/galleries/misc/maddylaughs.jpg"
+      "maddyLaughs" : "http://photos.madeleinefellows.com/galleries/misc/maddylaughs.jpg",
+      "maddyAlice" : "http://photos.madeleinefellows.com/galleries/misc/maddyalice.jpg"
     },
     "writingPage" : {
       "deepEnd" : "http://photos.madeleinefellows.com/galleries/misc/deependLC.jpg"
